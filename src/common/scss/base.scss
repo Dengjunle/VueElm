@@ -1,0 +1,14 @@
+body,html{
+    line-height: 1;
+    font-weight: 200;
+    font-family: 'PingFang SC','STHeitiSC-Linght','Helvetica-Light',Arial, Helvetica, sans-serif
+}
+
+.clearfix{
+    display: inline-block;
+}
+.clearfix::after{
+    display: block;
+    content: ".";
+   clear: both;
+}
